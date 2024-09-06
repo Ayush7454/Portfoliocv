@@ -50,11 +50,11 @@ const Experience = () => {
                 </a>
               </button>
               
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap ">
                 {experience.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 mt-2 rounded bg-neutral-900 px-2 pb-7  text-sm font-medium text-white"
+                    className="mr-2 mt-2 rounded bg-neutral-700 px-2 py-2  text-sm font-medium text-white"
                   >
                     {tech}
                   </span>

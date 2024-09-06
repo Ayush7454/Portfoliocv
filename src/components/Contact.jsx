@@ -3,7 +3,7 @@ import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-  const email = "ayushgaya7454@email.com";
+  const email = "ayushgaya7454@gmail.com";
 
   // Function to handle copying to clipboard
   const handleCopyPhone = () => {
@@ -24,9 +24,9 @@ const Contact = () => {
       >
         <a
           href={`mailto:${email}`}
-          className="bg-gray-800 hover:bg-gray-500 text-white py-2 px-4 rounded"
+          className="bg-gray-900 hover:bg-gray-700 text-white py-2 px-4 rounded"
         >
-          Contact Us
+          Contact Me
         </a>
       </motion.h1>
       <div className="text-center tracking-tighter">

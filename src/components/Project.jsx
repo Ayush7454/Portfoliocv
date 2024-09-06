@@ -19,7 +19,7 @@ const Project = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
       >
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 flex flex-wrap md:gap-6 lg:justify-center md:mb-10">
             <div className="w-full lg:w-1/4">
               <motion.img
                 whileInView={{ opacity: 1, x: 10 }}
@@ -48,12 +48,14 @@ const Project = () => {
               </button>
               <br/>
               {project.technologies.map((tech, index) => (
-                <span
+                
+                <span 
                   key={index}
-                  className="mr-2 rounded bg-neutral-800 px-2 py-1 text-sm font-medium"
+                  className="mr-2 rounded bg-neutral-800 px-2 py-1  text-sm font-medium"
                 >
                   {tech}
                 </span>
+                
               ))}
             </motion.div>
           </div>
