@@ -1,7 +1,7 @@
 import React from "react";
  
 
-import { FaInstagram } from "react-icons/fa";
+//import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
@@ -15,9 +15,21 @@ const Navbar = () => {
         className="m-8 flex items-center justify-center gap-4 text-2xl
          "
       >
+        {/* <a
+        href="https://www.linkedin.com/in/ayush-kumar-sinha-a89aa7227"
+        >
         <FaInstagram  />
+        </a> */}
+        <a
+        href="https://www.linkedin.com/in/ayush-kumar-sinha-a89aa7227"
+        >
         <FaLinkedin />
+        </a>
+        <a
+        href="https://github.com/Ayush7454"
+        >
         <FaGithub />
+        </a>
       </div>
     </nav>
   );

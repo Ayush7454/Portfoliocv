@@ -3,6 +3,7 @@ import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  const email = "ayushgaya7454@email.com";
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
@@ -11,7 +12,13 @@ const Contact = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Contact US
+        
+        <a
+        href={`mailto:${email}`}
+        className="bg-gray-800 hover:bg-gray-500 text-white  py-2 px-4 rounded"
+      >
+        Contact Us
+      </a>
       </motion.h1>
       <div className="text-center tracking-tighter">
         <motion.p
