@@ -26,6 +26,7 @@ function App() {
           <Project></Project>
         
           <Contact></Contact>
+          
         </div>
       </div>
     </>

@@ -14,6 +14,7 @@ export const EXPERIENCES = [
     company: "GETMAX SOLUTIONS",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs . Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["CSS", "Javascript", "React.js", "Next.js"],
+    link : ["https://drive.google.com/file/d/1tvNQhcrY9T7yxQSqU88lOB9IU3lJ12Ea/view?usp=drivesdk"]
   },
   {
     Duration: "Feb 2023-June2023",
@@ -21,6 +22,7 @@ export const EXPERIENCES = [
     company: "NIT Arunachal Pradesh",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    link :["https://drive.google.com/file/d/1twb2NmRGJaC_3yXJPT-PWjFcVCJ71p2G/view?usp=drivesdk "],
   },
  
 
@@ -31,8 +33,9 @@ export const PROJECTS = [
     title: "HealthCare RCM",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A website for Getmax Solutions company which help users to clain medical health insurance and manage billings .",
     technologies: ["HTML", "CSS", "React", "Node.js"],
+    link : ["https://gms-rcm.vercel.app/"],
   },
   {
     title: "SHEC",
@@ -40,6 +43,7 @@ export const PROJECTS = [
     description:
       "A website for a dubai based construction company showcasing their projects, way to contact and Portfolio.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link : ["https://shec-alpha.vercel.app/"],
   },
   {
     title: "Portfolio Website",
@@ -52,7 +56,7 @@ export const PROJECTS = [
     title: "Robot ARM Manipulation",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A robotic arm able to move according to hand gestures.",
     technologies: ["Arduino IDE", "Raspberry Pi", "Jupiter Notebook", "Python"],
   },
 ];

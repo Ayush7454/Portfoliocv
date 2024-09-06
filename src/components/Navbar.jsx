@@ -9,7 +9,11 @@ const Navbar = () => {
   return (
     <nav className="   mb-20 flex items-center justify-between py-6">
       <div className="  flex flex-shrink-0 items-center text-4xl">
-        <p className="mx-2 w-10"></p>
+        <p className="mx-2 w-10">
+          <a href="https://drive.google.com/file/d/1t5ByT61p5sAzb3tbHwvGB1y3FRph2Bcr/view?usp=drivesdk ">
+            Resume
+          </a>
+        </p>
       </div>
       <div
         className="m-8 flex items-center justify-center gap-4 text-2xl
